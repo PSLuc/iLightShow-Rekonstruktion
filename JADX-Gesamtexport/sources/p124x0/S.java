@@ -1,0 +1,6 @@
+package p124x0;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface S {
+    void O(boolean z5);
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="main_enabled_lights_count">
+        <item quantity="one">%1$d Light</item>
+        <item quantity="other">%1$d Lights</item>
+    </plurals>
+</resources>

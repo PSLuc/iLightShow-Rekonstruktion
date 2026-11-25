@@ -1,0 +1,38 @@
+package p045i1;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Rect;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.contentcapture.ContentCaptureSession;
+import java.util.List;
+import l1.a;
+
+/* JADX INFO: renamed from: i1.x, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0762x {
+    public static View.AccessibilityDelegate a(View view) {
+        return view.getAccessibilityDelegate();
+    }
+
+    public static ContentCaptureSession b(View view) {
+        return view.getContentCaptureSession();
+    }
+
+    public static List<Rect> c(View view) {
+        return view.getSystemGestureExclusionRects();
+    }
+
+    public static void d(View view, Context context, int[] iArr, AttributeSet attributeSet, TypedArray typedArray, int i, int i3) {
+        view.saveAttributeDataForStyleable(context, iArr, attributeSet, typedArray, i, i3);
+    }
+
+    public static void e(View view, a aVar) {
+        view.setContentCaptureSession(null);
+    }
+
+    public static void f(View view, List<Rect> list) {
+        view.setSystemGestureExclusionRects(list);
+    }
+}

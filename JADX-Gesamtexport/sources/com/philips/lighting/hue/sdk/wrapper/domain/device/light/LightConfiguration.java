@@ -1,0 +1,45 @@
+package com.philips.lighting.hue.sdk.wrapper.domain.device.light;
+
+import com.philips.lighting.hue.sdk.wrapper.domain.clip.LightArchetype;
+import com.philips.lighting.hue.sdk.wrapper.domain.clip.LightDirection;
+import com.philips.lighting.hue.sdk.wrapper.domain.clip.LightFunction;
+import com.philips.lighting.hue.sdk.wrapper.domain.device.DeviceConfiguration;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface LightConfiguration extends DeviceConfiguration {
+    LightArchetype getArchetype();
+
+    LightDirection getDirection();
+
+    LightFunction getFunction();
+
+    LightStartUpState getLightStartUpState();
+
+    String getLuminaireUniqueId();
+
+    @Override // com.philips.lighting.hue.sdk.wrapper.domain.device.DeviceConfiguration
+    String getManufacturerName();
+
+    String getModelId();
+
+    @Override // com.philips.lighting.hue.sdk.wrapper.domain.device.DeviceConfiguration
+    String getName();
+
+    @Override // com.philips.lighting.hue.sdk.wrapper.domain.device.DeviceConfiguration
+    String getSwVersion();
+
+    String getUniqueId();
+
+    void setArchetype(LightArchetype lightArchetype);
+
+    void setDirection(LightDirection lightDirection);
+
+    void setFunction(LightFunction lightFunction);
+
+    void setLightStartUpState(LightStartUpState lightStartUpState);
+
+    void setLuminaireUniqueId(String str);
+
+    @Override // com.philips.lighting.hue.sdk.wrapper.domain.device.DeviceConfiguration
+    void setName(String str);
+}

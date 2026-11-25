@@ -1,0 +1,18 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "base.apk"
+  ],
+  "treeExpansionsV2": [],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [],
+  "cacheDir": "C:\\Users\\belur\\AppData\\Local\\skylot\\jadx\\cache\\projects\\base-3cdf5d1a16a4f4ecb19fbbcbeee211d5",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

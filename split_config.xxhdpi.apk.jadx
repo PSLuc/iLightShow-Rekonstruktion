@@ -1,0 +1,36 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "split_config.de.apk"
+  ],
+  "treeExpansionsV2": [
+    "p:com.nanjoran.ilightshow"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.nanjoran.ilightshow.R",
+      "subPath": "0",
+      "caret": 105,
+      "view": {
+        "x": 0,
+        "y": 7
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "C:\\Users\\belur\\AppData\\Local\\skylot\\jadx\\cache\\projects\\split_config.de-6aa0f8ae531201d6bed04f0da0539833",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

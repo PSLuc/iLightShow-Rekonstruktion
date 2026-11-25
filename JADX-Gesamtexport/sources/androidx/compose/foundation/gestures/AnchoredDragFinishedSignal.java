@@ -1,0 +1,16 @@
+package androidx.compose.foundation.gestures;
+
+import java.util.concurrent.CancellationException;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class AnchoredDragFinishedSignal extends CancellationException {
+    public AnchoredDragFinishedSignal() {
+        super("Anchored drag finished");
+    }
+
+    @Override // java.lang.Throwable
+    public final Throwable fillInStackTrace() {
+        setStackTrace(new StackTraceElement[0]);
+        return this;
+    }
+}
